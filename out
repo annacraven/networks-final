@@ -1,0 +1,36 @@
+Node 0: started
+Node 1: started
+Node 0: server started, port = 21
+S40: handleAck::incomingSeqNum: 0
+:Node 1: time = 2010 msec
+Node 1: started
+Node 1: bytes to send = 900
+21: incomingSeqNum: 0 currSeqNum: 0
+.40: handleAck::incomingSeqNum: 100
+:21: incomingSeqNum: 100 currSeqNum: 100
+.21: incomingSeqNum: 200 currSeqNum: 200
+.40: handleAck::incomingSeqNum: 300
+:21: incomingSeqNum: 300 currSeqNum: 300
+.21: incomingSeqNum: 500 currSeqNum: 400
+21: incomingSeqNum: 600 currSeqNum: 400
+21: incomingSeqNum: 700 currSeqNum: 400
+21: incomingSeqNum: 800 currSeqNum: 400
+!!!!!!Node 1: time = 3010
+Node 1: sending completed
+Node 1: closing connection...
+trying to close socket 0
+21: incomingSeqNum: 300 currSeqNum: 400
+21: incomingSeqNum: 400 currSeqNum: 400
+.40: handleAck::incomingSeqNum: 500
+:21: incomingSeqNum: 500 currSeqNum: 500
+.40: handleAck::incomingSeqNum: 600
+:21: incomingSeqNum: 600 currSeqNum: 600
+.40: handleAck::incomingSeqNum: 700
+:21: incomingSeqNum: 700 currSeqNum: 700
+.40: handleAck::incomingSeqNum: 800
+:!21: incomingSeqNum: 800 currSeqNum: 800
+.40: handleAck::incomingSeqNum: 900
+:Fishnet exiting after time: 100020 msec.
+Number of packets sent: 28
+Number of packets dropped: 0
+Number of packets lost: 5
